@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gandhi | Restaurante Hindú desde 1992</title>
+  <meta name="description" content="Gandhi, restaurante hindú desde 1992 en Punta Prima, Torrevieja. Cocina india auténtica, galería, menú, historia y reservas por WhatsApp.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container nav-inner">
+    <a href="#inicio" class="logo"><img src="images/logo-text.jpg" alt="Gandhi"></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#inicio" data-es="Inicio" data-en="Home">Inicio</a>
+      <a href="#menu" data-es="Menú" data-en="Menu">Menú</a>
+      <a href="#galeria" data-es="Galería" data-en="Gallery">Galería</a>
+      <a href="#historia" data-es="Historia" data-en="History">Historia</a>
+      <a href="#ubicacion" data-es="Ubicación" data-en="Location">Ubicación</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="reserve-btn" href="https://wa.me/34966705856?text=Hola%2C%20quiero%20reservar%20una%20mesa%20en%20Gandhi" data-es="Reserva o Pide " data-en="Book or Order ">Reserva o pide </a>
+      <button class="lang-btn" id="langToggle">EN</button>
+      <button class="menu-toggle" id="menuToggle">☰</button>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <div class="hero-content reveal">
+    <img class="hero-mark" src="images/logo-mark.png" alt="Gandhi emblema">
+    <h1>GANDHI</h1>
+    <div class="hero-sub" data-es="Auténtica Cocina India" data-en="Authentic Indian Cuisine">Auténtica Cocina India</div>
+    <div class="hero-since" data-es="DESDE 1992" data-en="SINCE 1992">DESDE 1992</div>
+    <div class="hero-actions">
+      <a class="hero-btn-gold" href="https://wa.me/34966705856?text=Hola%2C%20quiero%20reservar%20una%20mesa%20en%20Gandhi" target="_blank" data-es="Reserva o pide aquí" data-en="Book or order here">Reserva o pide aquí/WhatsApp
+      </a>
+      <a class="hero-btn-outline" href="#menu" data-es="Ver Menú" data-en="See Menu">Ver Menú</a>
+    </div>
+  </div>
+</section>
+
+<!-- MENÚ -->
+<section id="menu">
+  <div class="container">
+    <h2 class="section-title reveal" data-es="Nuestro Menú" data-en="Our Menu">Nuestro Menú</h2>
+    <p class="section-sub reveal" data-es="Descubre los sabores auténticos de la India" data-en="Discover the authentic flavors of India">Descubre los sabores auténticos de la India</p>
+
+    <div class="menu-wrap">
+      <div class="menu-tabs reveal">
+        <button class="menu-tab active" data-filter="entrantes" data-es="Entrantes" data-en="Starters">Entrantes</button>
+        <button class="menu-tab" data-filter="tandoori" data-es="Tandoori" data-en="Tandoori">Tandoori</button>
+        <button class="menu-tab" data-filter="curry" data-es="Curry" data-en="Curry">Curry</button>
+        <button class="menu-tab" data-filter="especialidades" data-es="Especialidades" data-en="Specialities">Especialidades</button>
+        <button class="menu-tab" data-filter="verduras" data-es="Verduras" data-en="Vegetables">Verduras</button>
+        <button class="menu-tab" data-filter="pan" data-es="Pan, Arroz y Más" data-en="Bread, Rice & More">Pan, Arroz y Más</button>
+      </div>
+
+      <!-- ENTRANTES -->
+      <div class="menu-category active" data-category="entrantes">
+        <div class="cat-title" data-es="Entrantes / Starters" data-en="Starters / Entrantes">Entrantes / Starters</div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Papadums</div>
+              <div class="dish-desc" data-es="Suave o picante (dos piezas)" data-en="Plain or spicy (two pieces)">Suave o picante (dos piezas)</div>
+            </div>
+            <div class="dish-price">2.50€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Pickles</div>
+              <div class="dish-desc" data-es="Mango dulce, mango picante, ensalada de cebolla, salsa de menta" data-en="Mango chutney, mango pickle hot, onion salad, mint sauce">Mango dulce, mango picante, ensalada de cebolla, salsa de menta</div>
+            </div>
+            <div class="dish-price">2.00€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Mixed Raitha</div>
+              <div class="dish-desc" data-es="Yogur con tomate, pepinos, cebolla y especias delicadas" data-en="Yogurt with tomatoes, cucumber and ground spices">Yogur con tomate, pepinos, cebolla y especias delicadas</div>
+            </div>
+            <div class="dish-price">1.95€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Chicken Pakora</div>
+              <div class="dish-desc" data-es="Pollo rebozado con harina de garbanzos y especias, frito" data-en="Chicken battered with gram flour and spices, deep fried">Pollo rebozado con harina de garbanzos y especias, frito</div>
+            </div>
+            <div class="dish-price">5.50€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Vegetable Pakora</div>
+              <div class="dish-desc" data-es="Verduras mezcladas con especias, harina de garbanzos y fritas" data-en="Vegetables mixed in spices, gram flour and deep fried">Verduras mezcladas con especias, harina de garbanzos y fritas</div>
+            </div>
+            <div class="dish-price">4.50€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Onion Bhaaji</div>
+              <div class="dish-desc" data-es="Cebolla mezclada con especias, harina de garbanzos, frito con forma de hamburguesa" data-en="Fresh onion mixed in spices, gram flour, batter and deep fried">Cebolla mezclada con especias, harina de garbanzos, frito con forma de hamburguesa</div>
+            </div>
+            <div class="dish-price">4.95€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Samosa's</div>
+              <div class="dish-desc" data-es="Rollitos indios fritos, rellenos de pollo o verduras" data-en="Indian pastry filled with spiced chicken or vegetables and deep fried">Rollitos indios fritos, rellenos de pollo o verduras</div>
+            </div>
+            <div class="dish-price">Verdura 5.50€ / Pollo 5.95€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Prawn Puree</div>
+              <div class="dish-desc" data-es="Gambas peladas cocinadas en salsa espesa con especias servidas con pan frito" data-en="Prawn cooked in a thick sauce with fresh herbs and served in fried bread">Gambas peladas cocinadas en salsa espesa con especias servidas con pan frito</div>
+            </div>
+            <div class="dish-price">6.95€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Mix Platter</div>
+              <div class="dish-desc" data-es="Para 2 personas" data-en="For 2 persons">Para 2 personas</div>
+            </div>
+            <div class="dish-price">11.95€</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TANDOORI -->
+      <div class="menu-category" data-category="tandoori">
+        <div class="cat-title" data-es="Platos Tandoori" data-en="Tandoori Dishes">Platos Tandoori</div>
+        <div class="cat-sub" data-es="* Entrantes servidos con ensalada — ** Segundos servidos en una plancha" data-en="* Starters served with salad — ** Main courses served in sizzler">* Entrantes servidos con ensalada — ** Segundos servidos en una plancha</div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Tandoori Mixed Grill</div>
+              <div class="dish-desc" data-es="Pollo tandoori, pollo tikka, cordero tikka, cordero kebab" data-en="Tandoori chicken, chicken tikka, lamb tikka, sheekn kebab">Pollo tandoori, pollo tikka, cordero tikka, cordero kebab</div>
+            </div>
+            <div class="dish-price">8.95€ / 14.95€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Tandoori Chicken</div>
+              <div class="dish-desc" data-es="Pollo macerado en yogur y especias delicadas, cocinado en horno tandoori" data-en="Tender chicken on the bone marinated in yogurt overnight and cooked in the tandoor">Pollo macerado en yogur y especias delicadas, cocinado en horno tandoori</div>
+            </div>
+            <div class="dish-price">7.50€ / 11.95€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Chicken Tikka</div>
+              <div class="dish-desc" data-es="Piezas de pollo maceradas en yogur con hierbas aromáticas, cocinadas en tandoori" data-en="Succulent chicken pieces marinated in yogurt with aromatic spices and cooked in the tandoor">Piezas de pollo maceradas en yogur con hierbas aromáticas, cocinadas en tandoori</div>
+            </div>
+            <div class="dish-price">7.50€ / 11.95€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Lamb Tikka</div>
+              <div class="dish-desc" data-es="Trozos de cordero macerado en yogur con hierbas aromáticas, cocinados en tandoori" data-en="Tender pieces of lamb marinated in yogurt mildly flavoured with herbs and spices">Trozos de cordero macerado en yogur con hierbas aromáticas, cocinados en tandoori</div>
+            </div>
+            <div class="dish-price">7.95€ / 12.95€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Sheekn Kebab</div>
+              <div class="dish-desc" data-es="Carne picada de cordero con varias especias con forma de salchicha" data-en="Minced lamb flavoured with various spices and cooked in the tandoor">Carne picada de cordero con varias especias con forma de salchicha</div>
+            </div>
+            <div class="dish-price">7.50€ / 12.95€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Tandoori King Prawns</div>
+              <div class="dish-desc" data-es="Langostinos macerados en salsa suave de yogur" data-en="King prawns marinated in mildly spiced yogurt and cooked in the tandoor">Langostinos macerados en salsa suave de yogur</div>
+            </div>
+            <div class="dish-price">8.95€ / 15.95€</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CURRY -->
+      <div class="menu-category" data-category="curry">
+        <div class="cat-title">Curry</div>
+        <div class="cat-sub" data-es="Disponible en Pollo, Cordero, Gambas y Langostinos" data-en="Available in Chicken, Lamb, Prawn and King Prawn">Disponible en Pollo, Cordero, Gambas y Langostinos</div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Mild / Medium</div>
+              <div class="dish-desc" data-es="Salsa suave o medio con hierbas y especias recién molidas" data-en="Cooked in freshly ground herbs and spices in mild or medium sauce">Salsa suave o medio con hierbas y especias recién molidas</div>
+            </div>
+            <div class="dish-price">Pollo 10.50€ / Cordero 12.95€ / Gambas 10.95€ / Langostinos 14.95€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Madras</div>
+              <div class="dish-desc" data-es="Salsa picante con hierbas y especias recién molidas" data-en="Cooked in freshly ground herbs and spices in hot sauce">Salsa picante con hierbas y especias recién molidas</div>
+            </div>
+            <div class="dish-price">Pollo 10.50€ / Cordero 12.45€ / Gambas 10.95€ / Langostinos 14.95€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Vindaloo</div>
+              <div class="dish-desc" data-es="Salsa muy picante con hierbas y especias recién molidas" data-en="Cooked in freshly ground herbs and spices in very hot sauce">Salsa muy picante con hierbas y especias recién molidas</div>
+            </div>
+            <div class="dish-price">Pollo 10.50€ / Cordero 12.45€ / Gambas 10.95€ / Langostinos 14.95€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Phall</div>
+              <div class="dish-desc" data-es="Salsa muy muy picante con hierbas y especias recién molidas" data-en="Cooked in freshly ground herbs and spices in very very hot sauce">Salsa muy muy picante con hierbas y especias recién molidas</div>
+            </div>
+            <div class="dish-price">Pollo 10.50€ / Cordero 12.45€ / Gambas 10.95€ / Langostinos 14.95€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Bhuna</div>
+              <div class="dish-desc" data-es="Salsa espesa con cebolla, tomate, pimientos y hierbas" data-en="Cooked in a thick sauce with onion, tomatoes, peppers and freshly herbs">Salsa espesa con cebolla, tomate, pimientos y hierbas</div>
+            </div>
+            <div class="dish-price">Pollo 10.50€ / Cordero 12.45€ / Gambas 10.95€ / Langostinos 14.95€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Korma</div>
+              <div class="dish-desc" data-es="Cocinado con nata y coco (muy suave)" data-en="Cooked in fresh cream and coconut (very mild)">Cocinado con nata y coco (muy suave)</div>
+            </div>
+            <div class="dish-price">Pollo 10.95€ / Cordero 12.95€ / Gambas 11.95€ / Langostinos 14.95€ / Verduras 10.50€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Dhansak</div>
+              <div class="dish-desc" data-es="Salsa de lentejas agridulce (medio picante)" data-en="Cooked in hot sweet and sour sauce with lentils (medium hot)">Salsa de lentejas agridulce (medio picante)</div>
+            </div>
+            <div class="dish-price">Pollo 10.95€ / Cordero 12.95€ / Gambas 11.95€ / Langostinos 14.95€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Dopiaza</div>
+              <div class="dish-desc" data-es="Trozos de cebolla en salsa espesa con un toque de yogur (medio picante)" data-en="Cooked with chopped onions with a touch of yogurt and green peppers and served with a thick sauce (medium hot)">Trozos de cebolla en salsa espesa con un toque de yogur (medio picante)</div>
+            </div>
+            <div class="dish-price">Pollo 10.50€ / Cordero 12.95€ / Gambas 10.95€ / Langostinos 14.95€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Pathia</div>
+              <div class="dish-desc" data-es="Salsa agridulce con especias (medio picante)" data-en="Cooked in hot sweet and sour sauce (medium hot)">Salsa agridulce con especias (medio picante)</div>
+            </div>
+            <div class="dish-price">Pollo 10.50€ / Cordero 12.95€ / Gambas 10.95€ / Langostinos 14.95€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Mango</div>
+              <div class="dish-desc" data-es="Salsa de mango y nata con especias hindúes y salsa curry" data-en="Cooked in a sweet mango pulp and cream sauce with Indian spices and curry sauce">Salsa de mango y nata con especias hindúes y salsa curry</div>
+            </div>
+            <div class="dish-price">Pollo 11.95€ / Cordero 13.50€ / Gambas 12.50€ / Langostinos 14.95€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Pasanda</div>
+              <div class="dish-desc" data-es="Crema y almendras en salsa de curry suave" data-en="Prepared with cream and almonds in mild curry sauce">Crema y almendras en salsa de curry suave</div>
+            </div>
+            <div class="dish-price">Pollo 11.95€ / Cordero 13.50€ / Gambas 12.50€ / Langostinos 14.95€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Ceylon Chicken</div>
+              <div class="dish-desc" data-es="Salsa de coco y especias (medio picante)" data-en="Cooked in coconut and spices. A very popular South Indian dish (medium hot)">Salsa de coco y especias (medio picante)</div>
+            </div>
+            <div class="dish-price">10.95€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Jalfrezi</div>
+              <div class="dish-desc" data-es="Guindilla, jengibre, cebolla, pimientos y especias especiales (picante)" data-en="Cooked with sliced onions, fresh ginger, green chillies, peppers and special spices (hot)">Guindilla, jengibre, cebolla, pimientos y especias especiales (picante)</div>
+            </div>
+            <div class="dish-price">Pollo 10.95€ / Cordero 12.95€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Chicken and Mushrooms</div>
+              <div class="dish-desc" data-es="Trozos de pollo cocinados con champiñones en salsa" data-en="Chicken pieces cooked with mushrooms in sauce">Trozos de pollo cocinados con champiñones en salsa</div>
+            </div>
+            <div class="dish-price">10.95€</div>
+          </div>
+          <span class="price-note">Mild/Medium, Madras, Vindaloo o Phall</span>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Sag Chicken</div>
+              <div class="dish-desc" data-es="Trozos de pollo cocinado en espinacas en salsa espesa con hierbas" data-en="Chicken pieces cooked with spinach in a thick sauce">Trozos de pollo cocinado en espinacas en salsa espesa con hierbas</div>
+            </div>
+            <div class="dish-price">Mild/Medium 10.95€ / Madras 10.95€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Sag Gosht</div>
+              <div class="dish-desc" data-es="Trozos de cordero cocinado en espinacas en salsa espesa con hierbas" data-en="Lamb pieces cooked with spinach in a thick sauce">Trozos de cordero cocinado en espinacas en salsa espesa con hierbas</div>
+            </div>
+            <div class="dish-price">Mild/Medium 12.95€ / Madras 12.95€</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ESPECIALIDADES -->
+      <div class="menu-category" data-category="especialidades">
+        <div class="cat-title" data-es="Especialidades" data-en="Specialities">Especialidades</div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Chicken Tikka Masala</div>
+              <div class="dish-desc" data-es="Pollo tikka cocinado en salsa de nata, coco y especias (suave, medio picante o picante)" data-en="Chicken pieces grilled in the Tandoor, finished in a cream masala & coco sauce">Pollo tikka cocinado en salsa de nata, coco y especias (suave, medio picante o picante)</div>
+            </div>
+            <div class="dish-price">11.95€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Balti</div>
+              <div class="dish-desc" data-es="Cocinado en cazuela especial con hierbas, cebolla y pimientos" data-en="Cooked in wok with fresh herbs, onions and peppers (medium hot)">Cocinado en cazuela especial con hierbas, cebolla y pimientos</div>
+            </div>
+            <div class="dish-price">Pollo 10.95€ / Cordero 12.95€ / Gambas 11.95€ / Langostinos 14.95€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Karahi</div>
+              <div class="dish-desc" data-es="Cocinado en salsa con tomate, pimientos, cebolla, guindillas y especias, servido en un recipiente especial" data-en="Cooked in tomatoes, peppers, onions and chillies, served in a karahi dish">Cocinado en salsa con tomate, pimientos, cebolla, guindillas y especias, servido en un recipiente especial</div>
+            </div>
+            <div class="dish-price">Pollo 10.95€ / Cordero 12.95€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Butter Chicken Masala</div>
+              <div class="dish-desc" data-es="Cocinado en tandoori y preparado en salsa de nata y mantequilla" data-en="Cooked in the Tandoor prepared with a spiced butter sauce">Cocinado en tandoori y preparado en salsa de nata y mantequilla</div>
+            </div>
+            <div class="dish-price">11.95€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Rogan</div>
+              <div class="dish-desc" data-es="Cocinado en salsa con pimientos, tomate y un poco de yogurt con especias" data-en="Cooked red peppers, tomatoes and touch of yogurt to give a medium hot dish">Cocinado en salsa con pimientos, tomate y un poco de yogurt con especias</div>
+            </div>
+            <div class="dish-price">Pollo 10.95€ / Cordero 12.95€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Gandhi Jinga</div>
+              <div class="dish-desc" data-es="Langostinos cocinados en salsa de nata y especias muy ricas" data-en="King prawn grilled in the Tandoor and finished in a cream masala sauce">Langostinos cocinados en salsa de nata y especias muy ricas</div>
+            </div>
+            <div class="dish-price">14.95€</div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-top">
+            <div class="menu-item-main">
+              <div class="dish-name">Chilli Chicken</div>
+              <div class="dish-desc" data-es="Pollo cocinado con cebolla, pimiento verde y rojo, jengibre y ajo con salsa de chiles" data-en="Chicken cooked with onion, green and red peppers, ginger, garlic with sweet chilli sauce">Pollo cocinado con cebolla, pimiento verde y rojo, jengibre y ajo con salsa de chiles</div>
+            </div>
+            <div class="dish-price">12.95€</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- VERDURAS -->
+      <div class="menu-category" data-category="verduras">
+        <div class="cat-title" data-es="Verduras / Vegetariano" data-en="Vegetable / Vegetarian">Verduras / Vegetariano</div>
+        <div class="cat-sub" data-es="Todos los platos de verdura van cocinados en salsa" data-en="All dishes are cooked in vegetable sauce">Todos los platos de verdura van cocinados en salsa</div>
+
+        <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Mixed Vegetable Curry</div><div class="dish-desc" data-es="Varias verduras cocinadas en salsa con especias" data-en="Assorted vegetables cooked in freshly ground herbs and spices">Varias verduras cocinadas en salsa con especias</div></div><div class="dish-price">7.95€</div></div></div>
+        <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Tarka Dal</div><div class="dish-desc" data-es="Cinco tipos de lentejas cocinadas con especias terminado con un toque de cominos y ajos" data-en="Yellow lentils cooked with tomatoes and garlic, flavoured with cumin seeds and chillies, flamed in clarified butter">Cinco tipos de lentejas cocinadas con especias terminado con un toque de cominos y ajos</div></div><div class="dish-price">7.95€</div></div></div>
+        <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Sag Panner</div><div class="dish-desc" data-es="Espinacas cocinadas con queso hindú y especias" data-en="Spinach cooked with Indian cheese and spices">Espinacas cocinadas con queso hindú y especias</div></div><div class="dish-price">9.95€</div></div></div>
+        <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Sag Bhaaji</div><div class="dish-desc" data-es="Espinacas cocinadas con ajo, cebolla, hierbas y especias" data-en="Spinach cooked with onions, garlic, fenugreek leaves and butter">Espinacas cocinadas con ajo, cebolla, hierbas y especias</div></div><div class="dish-price">7.95€</div></div></div>
+        <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Sag Aloo</div><div class="dish-desc" data-es="Espinacas y patatas cocidas con ajo, cebolla, hierbas y especias" data-en="Spinach and potatoes cooked with onions, garlic, fenugreek leaves and butter">Espinacas y patatas cocidas con ajo, cebolla, hierbas y especias</div></div><div class="dish-price">7.95€</div></div></div>
+        <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Caulflour Bhaaji</div><div class="dish-desc" data-es="Coliflor cocinada en salsa con especias delicadas (seco)" data-en="Cauliflower cooked lightly in select spices (dry)">Coliflor cocinada en salsa con especias delicadas (seco)</div></div><div class="dish-price">7.95€</div></div></div>
+        <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Aloo Gobhi</div><div class="dish-desc" data-es="Coliflor y patata cocinadas en salsa con especias delicadas (seco)" data-en="Cauliflower and potatoes cooked lightly in select spices (dry)">Coliflor y patata cocinadas en salsa con especias delicadas (seco)</div></div><div class="dish-price">7.95€</div></div></div>
+        <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Bombay Aloo</div><div class="dish-desc" data-es="Patatas cocinadas en salsa con hierbas y especias" data-en="Potatoes cooked in herbs and sauce with special spices added">Patatas cocinadas en salsa con hierbas y especias</div></div><div class="dish-price">7.95€</div></div></div>
+        <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Chana Masala</div><div class="dish-desc" data-es="Garbanzos cocinados en salsa con hierbas y especias" data-en="Chick pea's cooked in freshly ground herbs and spices">Garbanzos cocinados en salsa con hierbas y especias</div></div><div class="dish-price">7.95€</div></div></div>
+        <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Musroom Masala</div><div class="dish-desc" data-es="Champiñones cocinados en salsa con ajo, cebolla, pimientos, jengibre y especias suaves" data-en="Mushroom cooked gently with onions, ginger, garlic and mild spices">Champiñones cocinados en salsa con ajo, cebolla, pimientos, jengibre y especias suaves</div></div><div class="dish-price">7.95€</div></div></div>
+      </div>
+
+      <!-- PAN, ARROZ Y MÁS -->
+      <div class="menu-category" data-category="pan">
+        <div class="cat-title" data-es="Pan, Arroz y Más" data-en="Bread, Rice & More">Pan, Arroz y Más</div>
+
+        <div class="menu-group">
+          <div class="menu-group-title" data-es="Pan — Bread" data-en="Bread — Pan">Pan — Bread</div>
+
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Naan Bread</div><div class="dish-desc" data-es="Pan típico hindú cocinado en el horno tandoori" data-en="Indian bread baked in the Tandoor">Pan típico hindú cocinado en el horno tandoori</div></div><div class="dish-price">3.50€</div></div></div>
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Garlic Naan</div><div class="dish-desc" data-es="Pan naan con sabor a ajo" data-en="Naan flavoured with garlic">Pan naan con sabor a ajo</div></div><div class="dish-price">3.95€</div></div></div>
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Keema Naan</div><div class="dish-desc" data-es="Pan naan relleno de carne picada" data-en="Naan stuffed with minced lamb">Pan naan relleno de carne picada</div></div><div class="dish-price">4.50€</div></div></div>
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Peshwari Naan</div><div class="dish-desc" data-es="Pan naan dulce, relleno de coco y pasas" data-en="Naan stuffed with raisins and coconut">Pan naan dulce, relleno de coco y pasas</div></div><div class="dish-price">4.50€</div></div></div>
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Kulcha Naan</div><div class="dish-desc" data-es="Pan naan especial receta del Chef" data-en="Naan baked to the chef's own recipe">Pan naan especial receta del Chef</div></div><div class="dish-price">4.95€</div></div></div>
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Cheese Naan</div><div class="dish-desc" data-es="Pan naan con sabor a queso" data-en="Naan flavoured with cheese">Pan naan con sabor a queso</div></div><div class="dish-price">4.50€</div></div></div>
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Roti</div><div class="dish-desc" data-es="Pan integral hindú, cocido en el tandoori" data-en="Wholemeal dough baked in the Tandoor">Pan integral hindú, cocido en el tandoori</div></div><div class="dish-price">2.50€</div></div></div>
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Paratha</div><div class="dish-desc" data-es="Pan integral con mantequilla, cocido en el tandoori" data-en="Wholemeal bread buttered and baked in the Tandoor">Pan integral con mantequilla, cocido en el tandoori</div></div><div class="dish-price">3.95€</div></div></div>
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Stuffed Paratha</div><div class="dish-desc" data-es="Pan integral relleno de verduras" data-en="Paratha stuffed with mixed vegetables">Pan integral relleno de verduras</div></div><div class="dish-price">4.50€</div></div></div>
+        </div>
+
+        <div class="menu-group">
+          <div class="menu-group-title" data-es="Arroz — Rice" data-en="Rice — Arroz">Arroz — Rice</div>
+
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Boiled Rice</div><div class="dish-desc" data-es="Arroz Basmati cocido" data-en="Boiled Basmati rice">Arroz Basmati cocido</div></div><div class="dish-price">3.50€</div></div></div>
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Pilau Rice</div><div class="dish-desc" data-es="Arroz frito Basmati cocinado con especias" data-en="Basmati fried rice cooked with spices">Arroz frito Basmati cocinado con especias</div></div><div class="dish-price">4.50€</div></div></div>
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Garlic Rice</div><div class="dish-desc" data-es="Arroz frito con ajo" data-en="Basmati rice fried with garlic">Arroz frito con ajo</div></div><div class="dish-price">4.50€</div></div></div>
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Gandhi Special Rice</div><div class="dish-desc" data-es="Receta especial del Chef" data-en="Rice cooked with the Chef's own recipe">Receta especial del Chef</div></div><div class="dish-price">4.95€</div></div></div>
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Keema Rice</div><div class="dish-desc" data-es="Arroz frito con carne picada" data-en="Long grain rice fried with minced lamb">Arroz frito con carne picada</div></div><div class="dish-price">4.95€</div></div></div>
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Egg Fried Rice</div><div class="dish-desc" data-es="Arroz frito con huevos" data-en="Rice fried with eggs">Arroz frito con huevos</div></div><div class="dish-price">4.50€</div></div></div>
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Chips</div><div class="dish-desc" data-es="Patatas fritas" data-en="Chips / French fries">Patatas fritas</div></div><div class="dish-price">3.50€</div></div></div>
+        </div>
+
+        <div class="menu-group">
+          <div class="menu-group-title" data-es="Biryanis" data-en="Biryanis">Biryanis</div>
+
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Biryani Chicken</div><div class="dish-desc" data-es="Cocinado con arroz, especias aromáticas y servido con salsa separada" data-en="Cooked with rice served with separated sauce">Cocinado con arroz, especias aromáticas y servido con salsa separada</div></div><div class="dish-price">11.95€</div></div></div>
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Biryani Lamb</div><div class="dish-desc" data-es="Cocinado con arroz, especias aromáticas y servido con salsa separada" data-en="Cooked with rice served with separated sauce">Cocinado con arroz, especias aromáticas y servido con salsa separada</div></div><div class="dish-price">13.95€</div></div></div>
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Biryani Chicken Tikka</div><div class="dish-desc" data-es="Cocinado con arroz, especias aromáticas y servido con salsa separada" data-en="Cooked with rice served with separated sauce">Cocinado con arroz, especias aromáticas y servido con salsa separada</div></div><div class="dish-price">12.95€</div></div></div>
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Biryani King Prawn</div><div class="dish-desc" data-es="Cocinado con arroz, especias aromáticas y servido con salsa separada" data-en="Cooked with rice served with separated sauce">Cocinado con arroz, especias aromáticas y servido con salsa separada</div></div><div class="dish-price">14.95€</div></div></div>
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Biryani Vegetables</div><div class="dish-desc" data-es="Cocinado con arroz, especias aromáticas y servido con salsa separada" data-en="Cooked with rice served with separated sauce">Cocinado con arroz, especias aromáticas y servido con salsa separada</div></div><div class="dish-price">11.95€</div></div></div>
+        </div>
+
+        <div class="menu-group">
+          <div class="menu-group-title" data-es="Menú Infantil" data-en="Kids Menu">Menú Infantil</div>
+
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Chicken</div><div class="dish-desc" data-es="Pollo a la plancha + patatas fritas o arroz" data-en="Grilled chicken + chips or rice">Pollo a la plancha + patatas fritas o arroz</div></div><div class="dish-price">7.95€</div></div></div>
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Chicken Nuggets</div><div class="dish-desc" data-es="Nuggets de pollo + patatas fritas o arroz" data-en="Chicken nuggets + chips or rice">Nuggets de pollo + patatas fritas o arroz</div></div><div class="dish-price">7.95€</div></div></div>
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Chicken Tikka</div><div class="dish-desc" data-es="Pollo tikka + patatas fritas o arroz" data-en="Chicken tikka + chips or rice">Pollo tikka + patatas fritas o arroz</div></div><div class="dish-price">7.95€</div></div></div>
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Omelette</div><div class="dish-desc" data-es="Tortilla francesa + patatas fritas" data-en="Omelette + chips">Tortilla francesa + patatas fritas</div></div><div class="dish-price">6.95€</div></div></div>
+        </div>
+
+        <div class="menu-group">
+          <div class="menu-group-title" data-es="Postres Indios" data-en="Indian Desserts">Postres Indios</div>
+
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Sikhan</div><div class="dish-desc" data-es="Postre de yogurt cremoso con azafrán, almendras y pistachos, muy popular en Gujarati" data-en="Creamy yogurt dessert with saffron, almonds and pistachios, very popular in Gujarati">Postre de yogurt cremoso con azafrán, almendras y pistachos, muy popular en Gujarati</div></div><div class="dish-price">4.95€</div></div></div>
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Gulab Jamun</div><div class="dish-desc" data-es="Buñuelos elaborados con leche en polvo y servidos en almíbar con cardamomo y azafrán" data-en="Sweet fritters made with milk powder, served with a sweet syrup containing cardamom and saffron">Buñuelos elaborados con leche en polvo y servidos en almíbar con cardamomo y azafrán</div></div><div class="dish-price">4.95€</div></div></div>
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Mango Ice Cream</div><div class="dish-desc" data-es="Helado de mango con cardamomo" data-en="Mango ice cream with cardamom">Helado de mango con cardamomo</div></div><div class="dish-price">4.50€</div></div></div>
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Caramel Ice Cream</div><div class="dish-desc" data-es="Helado de caramelo con un toque de canela" data-en="Caramel ice cream with touch of cinnamon">Helado de caramelo con un toque de canela</div></div><div class="dish-price">4.50€</div></div></div>
+
+          <div class="menu-item">
+            <div class="menu-item-top">
+              <div class="menu-item-main">
+                <div class="dish-name">Vanilla / Chocolate Ice Cream</div>
+                <div class="dish-desc" data-es="Bola de helado: vainilla o chocolate" data-en="Ice cream scoops: vanilla or chocolate">Bola de helado: vainilla o chocolate</div>
+              </div>
+              <div class="dish-price">1 bola 2.50€ / 2 bolas 4.00€</div>
+            </div>
+          </div>
+
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Chai</div><div class="dish-desc" data-es="Té hindú con especias aromáticas (con o sin leche)" data-en="Indian tea with aromatic spices (black or white)">Té hindú con especias aromáticas (con o sin leche)</div></div><div class="dish-price">2.95€</div></div></div>
+        </div>
+
+        <div class="menu-group">
+          <div class="menu-group-title" data-es="Lassi — Batidos" data-en="Lassi — Drinks">Lassi — Batidos</div>
+
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Sweet</div><div class="dish-desc" data-es="Batido tradicional hindú dulce a base de yogurt" data-en="Sweet traditional indian yogurt based drink">Batido tradicional hindú dulce a base de yogurt</div></div><div class="dish-price">3.50€</div></div></div>
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Salty</div><div class="dish-desc" data-es="Batido tradicional hindú salado a base de yogurt" data-en="Salty traditional indian yogurt based drink">Batido tradicional hindú salado a base de yogurt</div></div><div class="dish-price">3.50€</div></div></div>
+          <div class="menu-item"><div class="menu-item-top"><div class="menu-item-main"><div class="dish-name">Mango</div><div class="dish-desc" data-es="Batido tradicional hindú de mango a base de yogurt" data-en="Mango flavoured traditional indian yogurt based drink">Batido tradicional hindú de mango a base de yogurt</div></div><div class="dish-price">4.50€</div></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- GALERÍA -->
+<section id="galeria">
+  <div class="container">
+    <h2 class="section-title reveal" data-es="Galería" data-en="Gallery">Galería</h2>
+    <p class="section-sub reveal" data-es="Un viaje visual por nuestra cocina y ambiente" data-en="A visual journey through our cuisine and atmosphere">Un viaje visual por nuestra cocina y ambiente</p>
+    <div class="gallery-grid">
+      <div class="gallery-card reveal"><img src="images/gallery-1.jpg" alt="Mesa Gandhi"></div>
+      <div class="gallery-card reveal"><img src="images/gallery-2.jpg" alt="Horno tandoor"></div>
+      <div class="gallery-card reveal"><img src="images/gallery-3.jpg" alt="Cócteles"></div>
+      <div class="gallery-card reveal"><img src="images/gallery-4.jpg" alt="Interior restaurante"></div>
+      <div class="gallery-card reveal"><img src="images/gallery-5.jpg" alt="Gulab Jamun"></div>
+      <div class="gallery-card reveal"><img src="images/gallery-6.jpg" alt="Butter Chicken"></div>
+      <div class="gallery-card reveal"><img src="images/gallery-7.jpg" alt="Salón Gandhi"></div>
+      <div class="gallery-card reveal"><img src="images/gallery-8.jpg" alt="Carta Gandhi"></div>
+      <div class="gallery-card reveal"><img src="images/gallery-9.jpg" alt="Chicken Tikka"></div>
+    </div>
+  </div>
+</section>
+
+<!-- HISTORIA -->
+<section id="historia">
+  <div class="container">
+    <h2 class="section-title reveal" data-es="Nuestra Historia" data-en="Our History">Nuestra Historia</h2>
+    <div class="history-grid">
+      <div class="history-text reveal">
+        <p data-es="Desde 1992, el Restaurante Gandhi ha sido un referente de la auténtica cocina india en Punta Prima, Torrevieja. Fundado con la pasión de llevar los sabores más genuinos del subcontinente indio, hemos mantenido durante más de 30 años la tradición culinaria que nos caracteriza." data-en="Since 1992, Gandhi Restaurant has been a benchmark of authentic Indian cuisine in Punta Prima, Torrevieja. Founded with the passion to bring the most genuine flavours of the Indian subcontinent, we have maintained our culinary tradition for more than 30 years.">Desde 1992, el Restaurante Gandhi ha sido un referente de la auténtica cocina india en Punta Prima, Torrevieja. Fundado con la pasión de llevar los sabores más genuinos del subcontinente indio, hemos mantenido durante más de 30 años la tradición culinaria que nos caracteriza.</p>
+        <p data-es="Cada plato es preparado con recetas transmitidas de generación en generación, utilizando especias importadas directamente de la India y técnicas de cocción ancestrales como el horno tandoori." data-en="Each dish is prepared with recipes passed down from generation to generation, using spices imported directly from India and ancestral cooking techniques such as the tandoor oven.">Cada plato es preparado con recetas transmitidas de generación en generación, utilizando especias importadas directamente de la India y técnicas de cocción ancestrales como el horno tandoori.</p>
+      </div>
+      <div class="history-mark reveal"><img src="images/logo-mark.png" alt="Gandhi emblema"></div>
+      <div class="history-text reveal">
+        <p data-es="Nuestro compromiso con la calidad y la autenticidad nos ha convertido en uno de los restaurantes indios más queridos de la Costa Blanca, ofreciendo una experiencia gastronómica única en un ambiente cálido y acogedor." data-en="Our commitment to quality and authenticity has made us one of the most beloved Indian restaurants on the Costa Blanca, offering a unique dining experience in a warm and welcoming atmosphere.">Nuestro compromiso con la calidad y la autenticidad nos ha convertido en uno de los restaurantes indios más queridos de la Costa Blanca, ofreciendo una experiencia gastronómica única en un ambiente cálido y acogedor.</p>
+        <div class="history-stat"><strong>+30</strong><span data-es="Años de tradición" data-en="Years of tradition">Años de tradición</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- UBICACIÓN -->
+<section id="ubicacion">
+  <div class="container">
+    <h2 class="section-title reveal" data-es="Encuéntranos" data-en="Find us">Encuéntranos</h2>
+    <div class="contact-grid">
+      <div class="reveal">
+        <iframe class="map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3146.2393255383768!2d-0.717497144554042!3d37.94819751748923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd63ab92b3f06c79%3A0x702382555c54a10c!2sGandhi%20Restaurante!5e0!3m2!1ses-419!2sco!4v1773283634303!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+      <div class="info-list reveal">
+        <div class="info-block">
+          <div class="icon">⌖</div>
+          <div>
+            <h4 data-es="Dirección" data-en="Address">Dirección</h4>
+            <p>Calle Cala Dorada, Local 9<br>Urb. Rocío del Mar<br>03189 Punta Prima, Torrevieja, España</p>
+          </div>
+        </div>
+        <div class="info-block">
+          <div class="icon">✆</div>
+          <div>
+            <h4 data-es="Teléfono" data-en="Phone">Teléfono</h4>
+            <p><a href="tel:+34966705856">+34 966 70 58 56</a></p>
+          </div>
+        </div>
+        <div class="info-block">
+          <div class="icon">◷</div>
+          <div>
+            <h4 data-es="Horario" data-en="Hours">Horario</h4>
+            <p data-es="Lun–Dom: 12:00–16:00 / 19:00–23:30" data-en="Mon–Sun: 12:00–16:00 / 19:00–23:30">Lun–Dom: 12:00–16:00 / 19:00–23:30</p>
+          </div>
+        </div>
+        <a class="wa-btn" href="https://wa.me/34966705856?text=Hola%2C%20quiero%20reservar%20una%20mesa%20en%20Gandhi" target="_blank" data-es="Reserva o pide aquí" data-en="Book or Order Here">Reservar o Pedir Domicilio Aquí/WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-logo"><img src="images/logo-text.jpg" alt="Gandhi"></div>
+    <div class="socials">
+      <span data-es="Síguenos:" data-en="Follow us:">Síguenos:</span>
+      <a href="https://www.instagram.com/restaurante.gandhi.torrevieja/" target="_blank">
+        <i class="fa-brands fa-instagram"></i> Instagram
+      </a>
+      <a href="https://www.facebook.com/gandhirestaurante/" target="_blank">
+        <i class="fa-brands fa-facebook"></i> Facebook
+      </a>
+    </div>
+    <div class="footer-copy" data-es="© 2026 Gandhi Restaurant. Todos los derechos reservados." data-en="© 2026 Gandhi Restaurant. All rights reserved.">© 2026 Gandhi Restaurant. Todos los derechos reservados.</div>
+  </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose">×</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
