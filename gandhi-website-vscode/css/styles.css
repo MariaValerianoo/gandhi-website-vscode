@@ -75,7 +75,7 @@ img { max-width: 100%; display: block; }
   text-align: center;
   overflow: hidden;
   background: linear-gradient(rgba(30,0,9,.52), rgba(30,0,9,.72)),
-              url('.images/hero.jpg') center / cover no-repeat;
+              url('../images/hero.jpg') center / cover no-repeat;
 }
 .hero::before {
   content: ''; position: absolute; inset: 0;
